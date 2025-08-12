@@ -102,19 +102,6 @@ python scripts/data-cleaning.py
 3. Refresh data to load latest information
 4. Verify all visualizations are displaying correctly
 
-### 3. Shopify API Integration (Optional)
-```python
-# Configure API credentials in config.py
-SHOPIFY_API_KEY = "your_api_key"
-SHOPIFY_PASSWORD = "your_password"
-SHOP_NAME = "your_shop_name"
-
-# Run automated data extraction
-python scripts/export-automation.py
-```
-
-## 📊 Key Metrics & KPIs
-
 ### Sales Metrics
 - **Total Revenue**: Sum of all completed orders
 - **Average Order Value (AOV)**: Revenue / Number of Orders
